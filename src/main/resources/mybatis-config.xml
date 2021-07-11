@@ -23,12 +23,7 @@
     </environments>
 
     <mappers>
-        <mapper resource="xxx/mybatis/simple/mapper/CountryMapper.xml"/>
-        <mapper resource="xxx/mybatis/simple/mapper/UserMapper.xml"/>
-        <mapper resource="xxx/mybatis/simple/mapper/RoleMapper.xml"/>
-        <mapper resource="xxx/mybatis/simple/mapper/PrivilegeMapper.xml"/>
-        <mapper resource="xxx/mybatis/simple/mapper/UserRoleMapper.xml"/>
-        <mapper resource="xxx/mybatis/simple/mapper/RolePrivilegeMapper.xml"/>
+        <package name="xxx.mybatis.simple.mapper"/>
     </mappers>
 
 </configuration>
